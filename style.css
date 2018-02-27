@@ -47,10 +47,7 @@
 
 .segment-img:hover {
     background: blue;
-}
-
-.segment-img:after {
-    background: blue;
+    opacity: 10;
 }
 
 .segment3 {
@@ -60,11 +57,12 @@
 }
 
 .segment3-text {
-    font-size: 18px;
     color: white;
     text-align: center;
     vertical-align: middle;
     margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
 }
 
 /* .img1 {
@@ -162,4 +160,16 @@ P {
     height: 40px;
     background-color: black;
 
+}
+
+h6 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /* margin-top: 20%; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 23px; */
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
