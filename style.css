@@ -1,0 +1,165 @@
+.home-img, .section-4-bg {
+    width: 100%;
+    position: relative;
+}
+
+.landing-header {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.home-text {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 80%;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.scroll {
+    z-index: 5;
+    position: absolute;
+    top: 95%;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.segment2 {
+    text-align: center;
+}
+
+.segment-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.segment-img:hover {
+    background: blue;
+}
+
+.segment-img:after {
+    background: blue;
+}
+
+.segment3 {
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+}
+
+.segment3-text {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+/* .img1 {
+    background-image: url("images/casestudy1.jpg")
+}
+
+.img2 {
+    background-image: url("images/casestudy3.jpg")
+}
+
+.img2 {
+    background-image: url("images/casestudy4.jpg")
+} */
+
+/* .section4 {
+    position: absolute;
+} */
+
+.section-4-heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -200%);
+    color: white;
+    font-size: 100px;
+    display: flex;
+    text-align: center;
+}
+
+/* .section-4-text {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 80%;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+} */
+
+.segment6-img, .segment7-img {
+    width: 100%;
+}
+
+.segment8 {
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+}
+
+P { 
+    color: white;
+}
+
+#one-heading {
+    display: none;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover {
+    background-color: blue;
+    /* display: block; */
+}
+
+/* #one-heading:hover {
+    display: block;
+} */
+
+.segment9-img {
+    width: 100%;
+    -webkit-filter: opacity(.2);
+    filter: opacity(.2);
+    /* background: yellow; */
+}
+
+.segment10-img {
+    width: 100%;
+}
+
+.segment11 {
+    background-color: grey;
+}
+
+.boundary:hover {
+    border-radius: 50%;
+    border: 10px solid coral;
+    margin: 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+
+}
