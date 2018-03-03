@@ -42,10 +42,9 @@ ul.navbar-nav a:hover {
 }
 
 .scroll {
-    z-index: 5;
     position: absolute;
     top: 95%;
-    margin-left: 50%;
+    margin-left: -50%;
     margin-top: 40px;
 }
 
@@ -54,15 +53,9 @@ ul.navbar-nav a:hover {
     background-color: black;
 }
 
-.segment-img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .segment-img:hover {
-    background: blue;
-    opacity: 10;
+    background-color: rgb(21, 4, 250);
+    z-index: 1;
 }
 
 .segment3 {
@@ -80,25 +73,32 @@ ul.navbar-nav a:hover {
     font-size: 23px;
 }
 
-/* .img1 {
-    background-image: url("images/casestudy1.jpg")
+.img1 {
+    height: 450px;
+    background: url('images/casestudy1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .img2 {
-    background-image: url("images/casestudy3.jpg")
+    height: 450px;
+    background: url('images/casestudy3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.img2 {
-    background-image: url("images/casestudy4.jpg")
-} */
-
-/* .section4 {
-    position: absolute;
-} */
-
-/* .carousel-item {
-    display: flex;
-} */
+.img3 {
+    height: 450px;
+    background: url('images/casestudy4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .section-4-text {
     font-family: 'Source Sans Pro', sans-serif;
@@ -216,19 +216,8 @@ P {
     display: none;
 }
 
-/* .one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover {
-    background-color: blue;
-} */
-
-/* #one-heading:hover {
-    display: block;
-} */
-
 .segment9-img {
     width: 100%;
-    /* -webkit-filter: opacity(.2); */
-    /* filter: opacity(.2); */
-    /* background: yellow; */
 }
 
 .segment10-img {
@@ -323,9 +312,7 @@ h6 {
     color: white;
     text-align: center;
     vertical-align: middle;
-    /* margin-top: 20%; */
     font-family: 'Montserrat', sans-serif;
-    /* font-size: 23px; */
     padding-top: 12%;
     padding-bottom: 5%;
 }
@@ -340,7 +327,6 @@ h6 {
     text-align: center;
     color: white;
     margin-left: 35%;
-    /* z-index: 10; */
 }
 
 .section6 {
