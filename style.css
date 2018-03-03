@@ -2,6 +2,12 @@
     padding: 10px;
 }
 
+.navigation-bar {
+    position: fixed; 
+    z-index: 10; 
+    width: 100%;
+}
+
 ul.navbar-nav a:hover {
     color: #FEA800 !important;
 }
