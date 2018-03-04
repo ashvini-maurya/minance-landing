@@ -426,7 +426,107 @@ h6 {
     .segment7-options {
         margin-top: -90%;
     }
+
+    .landing-header {
+        font-size: 85px;
+        top: 40%;
+    }
+
+    .home-text {
+        top: 55%;
+    }
 }
+
+@media only screen and (max-width: 1045px) {
+    .landing-header {
+        font-size: 75px;
+        top: 40%;
+    }
+
+    /* .home-text {
+        top: 55%;
+    } */
+}
+
+@media only screen and (max-width: 922px) {
+    .landing-header {
+        font-size: 65px;
+        top: 35%;
+    }
+
+    .home-text {
+        top: 50%;
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .landing-header {
+        font-size: 55px;
+        top: 30%;
+    }
+
+    .home-text {
+        top: 40%;
+        width: 85%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .landing-header {
+        font-size: 45px;
+        top: 28%;
+    }
+
+    .home-text {
+        top: 35%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .scroll {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .landing-header {
+        font-size: 45px;
+        top: 28%;
+    }
+
+    .home-text {
+        top: 35%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .home-img {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .landing-header {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .landing-header {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    .segment9-para {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
 
 @media only screen and (max-width: 1015px) {
     .segment7-img {
